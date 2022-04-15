@@ -3,7 +3,7 @@ import cairo
 W = 16  # Thickness of lines of T
 WIDTH, HEIGHT = 12 * W, 8 * W
 
-surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, WIDTH, HEIGHT)
+surface = cairo.SVGSurface("logo.svg", WIDTH, HEIGHT)
 ctx = cairo.Context(surface)
 
 ctx.set_source_rgb(1, 1, 1)  # white background
