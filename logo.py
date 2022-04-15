@@ -50,3 +50,4 @@ ctx.set_source_rgb(0, 0.75, 0)  # green
 ctx.fill()
 
 surface.write_to_png("logo.png")
+surface.finish()
