@@ -4,7 +4,7 @@ from math import pi
 W = 16  # Sides of basic squares
 WIDTH, HEIGHT = 8 * W, 3 * W
 
-surface = cairo.SVGSurface("logo1.svg", WIDTH, HEIGHT)
+surface = cairo.SVGSurface("logo2.svg", WIDTH, HEIGHT)
 ctx = cairo.Context(surface)
 
 ctx.set_source_rgb(1, 1, 1)  # white background
